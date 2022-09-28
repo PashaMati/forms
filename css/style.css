@@ -1,0 +1,113 @@
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #b3b3b3;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+p {
+    margin: 0;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.simple p {
+    margin-bottom: 9px;
+}
+
+.simple input,
+.simple select {
+    box-sizing: border-box;
+    width: 330px;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    padding-left: 17px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.simple input::placeholder {
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.simple textarea {
+    box-sizing: border-box;
+    width: 330px;
+    height: 130px;
+    padding:16px 17px;
+    font-size: 14px;
+    color: #1f222c;
+    font-weight: 400;
+    font-family: "Roboto";
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.simple button {
+    box-sizing: border-box;
+    width: 330px;
+    height: 43px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #12d661;
+    border: none;
+    border-radius: 3px;
+}
+
+.fixed form {
+    width: 310px;
+    height: 282px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 5px 6px rgba(0,0,0,0.15));
+    background-color: #fafafa;
+    border: 1px solid #e6e6e6;
+}
+
+.fixed input {
+    box-sizing: border-box;
+    width: 260px;
+    height: 36px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 0;
+    margin: 45px;
+}
+
+.fixed .log {
+    margin: 45px 25px;
+}
+
+.elements_navs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.elements_navs form {
+    width: 473px;
+    height: 114px;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+}
